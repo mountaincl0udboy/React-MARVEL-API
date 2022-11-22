@@ -17,7 +17,7 @@ function App() {
           <Route path="/characters" element={<CharacterList/>}/>
           <Route path="/comics" element={<ComicsList />} />
           <Route path="/events" element={<EventsList />} />
-          <Route path="/*" element={<Page404 />} />
+          <Route path="/*" element={<Page404 />} /> 
         </Routes>
       </BrowserRouter>
     </>
